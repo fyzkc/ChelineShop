@@ -1,0 +1,6 @@
+@ChelineShop.Catalog_HostAddress = http://localhost:5045
+
+GET {{ChelineShop.Catalog_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
