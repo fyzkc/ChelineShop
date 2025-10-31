@@ -7,7 +7,7 @@ namespace ChelineShop.Catalog.Entities
     {
         [BsonId]
         [BsonRepresentation(BsonType.ObjectId)]
-        public string CategoryId { get; set; }
+        public string Id { get; set; }
         public string CategoryName { get; set; }
     }
 }
